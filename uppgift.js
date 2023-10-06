@@ -59,7 +59,7 @@ for (const [animal, percentage] of Object.entries(sortedResultData)) {
 
 const userData = {
   userName: userName,
-  date: new Date().toISOString,
+  date: new Date().toLocaleString(),
   results: sortedResultData,
 };
 
